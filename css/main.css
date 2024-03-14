@@ -1,12 +1,15 @@
+/* sets font */
 .wrapper {
     font-family: 'Montserrat';
 }
 
+/* logo */
 header img {
     padding-left: 5px;
     padding-top: 5px;
 }
 
+/* positions hamburger icon */
 span {
     position: absolute;
     width: 40px;
@@ -15,16 +18,19 @@ span {
     right: 5px;
 }
 
+/* displays content in column */
 .foodapptext {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* sets font color */
 p, h5 {
     color: #737373;
 }
 
+/* sets font properties */
 .foodapptext h5 {
     font-weight: 700;
     font-size: 16px;
@@ -46,6 +52,7 @@ p {
     padding-bottom: 10px;
 }
 
+/* sets button properties */
 button {
     border-radius: 30px;
     width: 236px;
@@ -61,8 +68,6 @@ button {
 
 .foodappimg {
     display: flex;
-    /* background-color: #FA4A0C;
-    margin: 0px 100px; */
 }
 
 article h3 {
@@ -72,12 +77,14 @@ article h3 {
    padding-top: 40px;
 }
 
+/* displays content in column */
 .features {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* sets font properties */
 .features h2 {
     font-weight: 700;
     font-size: 24px;
@@ -98,12 +105,14 @@ article h3 {
     padding-top: 20px;
 }
 
+/* sets download style */
 .download {
     background-color: #252B42;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+/* sets font property */
 .download h1 {
     text-align: center;
     font-weight: 700;
